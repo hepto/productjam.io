@@ -1,5 +1,6 @@
 # Site settings
-title: Product Jam
+title: ProductJam!
+subtitle: Occasional improvised chat for people that build products.
 
 # Build settings
 markdown: kramdown

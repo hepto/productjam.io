@@ -1,0 +1,25 @@
+---
+---
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+@import "cover";
+
+@mixin transform($rotation) {
+  transform: rotate($rotation);
+  -webkit-transform: rotate($rotation);
+  -moz-transform: rotate($rotation);
+  -o-transform: rotate($rotation);
+  -ms-transform: rotate($rotation);
+}
+
+.title {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  @include transform(-4deg);
+}
+
+.location {
+  text-transform: uppercase;
+}
