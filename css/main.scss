@@ -14,12 +14,19 @@
 
 .title {
   font-family: 'Kaushan Script', cursive;
-  font-size: 5em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   @include transform(-4deg);
+  @media (min-width: 40em) {
+    font-size: 5rem;
+  }
 }
 
 .location {
   text-transform: uppercase;
+}
+
+.curators {
+  color: rgba(255,255,255,.5);
 }
