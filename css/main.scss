@@ -12,6 +12,10 @@
   -ms-transform: rotate($rotation);
 }
 
+hr {
+  border-top: 1px solid rgba(0, 0, 0, 0);
+}
+
 .title {
   font-family: 'Kaushan Script', cursive;
   font-size: 3rem;
@@ -29,4 +33,13 @@
 
 .curators {
   color: rgba(255,255,255,.5);
+}
+
+.list-group-item:first-child {
+    background-color: #fff;
+    color: #333;
+}
+
+.list-group-item {
+  background-color: #333;
 }
