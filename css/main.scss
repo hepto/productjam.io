@@ -16,6 +16,11 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0);
 }
 
+.bar {
+  width: 50%;
+  border-top: 1px solid #555;
+}
+
 .title {
   font-family: 'Kaushan Script', cursive;
   font-size: 3rem;
@@ -25,6 +30,11 @@ hr {
   @media (min-width: 40em) {
     font-size: 5rem;
   }
+}
+
+.lead {
+  color: #1B95E0;
+  text-shadow: 0 0.05rem 0 rgba(255, 255, 255, 1);
 }
 
 .location {
