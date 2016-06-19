@@ -38,7 +38,12 @@ hr {
 }
 
 .location {
-  text-transform: uppercase;
+  border-bottom: 1px dashed;
+}
+
+.location:hover {
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 .curators {
