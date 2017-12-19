@@ -1,6 +1,7 @@
 ---
 ---
-@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
 
 @import "cover";
 
@@ -10,6 +11,10 @@
   -moz-transform: rotate($rotation);
   -o-transform: rotate($rotation);
   -ms-transform: rotate($rotation);
+}
+
+p {
+  line-height: 1.6;
 }
 
 hr {
@@ -31,16 +36,32 @@ hr {
   font-family: 'Kaushan Script', cursive;
   font-size: 3rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   @include transform(-4deg);
   @media (min-width: 40em) {
     font-size: 5rem;
   }
 }
 
+.stamp {
+  font-family: 'Special Elite', cursive;
+  font-size: 3rem;
+  color: red;
+  text-transform: uppercase;
+}
+
 .lead {
   color: #1B95E0;
   text-shadow: 0 0.05rem 0 rgba(255, 255, 255, 1);
+}
+
+.card-title, .card-text {
+  color: #111;
+}
+
+.card-text > a {
+  color: #333;
+  text-decoration: underline;
 }
 
 .location {
