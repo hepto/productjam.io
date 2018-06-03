@@ -1,7 +1,6 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Slabo+27px');
 
 @import "cover";
 
@@ -43,11 +42,10 @@ hr {
   }
 }
 
-.stamp {
-  font-family: 'Special Elite', cursive;
-  font-size: 3rem;
-  color: red;
-  text-transform: uppercase;
+.subtitle {
+  font-family: 'Slabo 27px';
+  font-size: 1.5rem;
+  color: #28a745;
 }
 
 .lead {
