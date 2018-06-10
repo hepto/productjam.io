@@ -57,7 +57,8 @@ hr {
   color: #111;
 }
 
-.card-text > a {
+.address {
+  font-style: italic;
   color: #333;
   text-decoration: underline;
 }
@@ -76,8 +77,8 @@ hr {
 }
 
 .list-group-item:first-child {
-    background-color: #fff;
-    color: #333;
+  background-color: #fff;
+  color: #333;
 }
 
 .list-group-item {
