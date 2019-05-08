@@ -53,27 +53,32 @@ hr {
   text-shadow: 0 0.05rem 0 rgba(255, 255, 255, 1);
 }
 
-.card-title, .card-text {
+.card-title, .card-text, .card a {
   color: #111;
 }
 
-.address {
-  font-style: italic;
-  color: #333;
-  text-decoration: underline;
+.card-text {
+  text-align: left;
 }
 
-.address:hover {
-  color: #999;
-}
-
-.location {
+.card a {
   border-bottom: 1px dashed;
 }
 
-.location:hover {
+.card a:hover {
+  color: #111;
   text-decoration: none;
   border-bottom: 1px solid;
+}
+
+.tickets a {
+  color: #fff;
+  border-bottom: none;
+}
+
+.tickets a:hover {
+  color: #fff;
+  border-bottom: none;
 }
 
 .curators {
