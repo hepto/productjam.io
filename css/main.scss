@@ -53,11 +53,11 @@ hr {
   text-shadow: 0 0.05rem 0 rgba(255, 255, 255, 1);
 }
 
-.card-title, .card-text, .card a {
+.card-title, .card-text, .card-list, .card a {
   color: #111;
 }
 
-.card-text {
+.card-text, .card-list {
   text-align: left;
 }
 
